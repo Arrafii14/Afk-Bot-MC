@@ -1,13 +1,13 @@
 {
   "bot-account": {
-    "username": "bot",
-    "password": "your_password",
-    "type": "microsoft"
+    "username": "Arrafii14_(BOT)",
+    "password": "",
+    "type": ""
   },
 
   "server": {
-    "ip": "localhost",
-    "port": 25565,
+    "ip": "game5.falixserver.net",
+    "port": 58883,
     "version": "1.19.3"
   },
 
@@ -20,19 +20,19 @@
 
   "utils": {
     "auto-auth": {
-      "enabled": false,
-      "password": "12345678"
+      "enabled": true,
+      "password": ""
     },
 
     "anti-afk": {
-      "enabled": false,
+      "enabled": true,
       "sneak": false,
-      "jump": false,
+      "jump": true,
       "rotate": false,
 
       "hit": {
-        "enabled": false,
-        "delay": 1000,
+        "enabled": true,
+        "delay": 5000,
         "attack-mobs": false
       },
 
@@ -43,20 +43,17 @@
     },
 
     "chat-messages": {
-      "enabled": false,
+      "enabled": true,
       "repeat": true,
-      "repeat-delay": 60,
+      "repeat-delay": 300,
 
       "messages": [
-        "I'm a regular player ",
-        "My owner is urFate_ ",
-        "I want be alone ",
-        "Visit my GitHub page! (urFate/Afk-Bot)"
+        "Status : 200 OK."
       ]
     },
 
     "chat-log": true,
-    "auto-reconnect": false,
-    "auto-reconnect-delay": 5000
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 1000
   }
 }
